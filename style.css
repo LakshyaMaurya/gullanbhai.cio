@@ -1,0 +1,58 @@
+#header
+{
+    background-color: #CCD5AE;
+    background-image: url('../images/vivo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: sticky; */
+}
+#heading1
+{
+/* font-style:italic; */
+font-family:sans-serif;
+/* font-size: 40px; */
+/* text-shadow: 2px 2px blue; */
+color: rgb(3, 3, 94);
+font-weight: 900;
+line-height: 0%;
+
+}
+#ctn
+{
+    background-color: blue;
+    border-radius: 10px 0px 10px 0px;
+    /* width:fit-content; */
+}
+marquee ul a li
+{
+    color: rgb(78, 78, 78);
+}
+marquee ul a li:hover
+{
+color: red;
+font-style: italic;
+font-weight: 500;
+transition: 1s ease;
+}
+marquee ul a
+{
+    text-decoration: none;
+}
+marquee ul
+{
+    display:flex;
+}
+.col-sm-6 ul li a:hover
+{
+color: red;
+margin-top: 3px;
+font-weight: 700;
+transition: 1s ease;
+/* text-decoration: underline; */
+font-size: 18px;
+}
+.footer a
+{
+text-decoration: none;
+color: aliceblue;
+}
